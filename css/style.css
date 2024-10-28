@@ -63,7 +63,7 @@ h3 {
     flex-direction: column;  /* je préfère le mettre pour bien afficher la propriété et sa valeur, même si elle est là par défaut dans notre cas */
     justify-content: center; /* alignement horizontal car flex-direction = row */ /* propriété de flexbox */
     align-items: center;  /* alignement vertical car flex-direction = row */ /* propriété de flexbox */
-    gap : 10px;  /* propriété de flexbox pour insérer un espace entre nos cards */
+    gap : 0px;  /* propriété de flexbox pour insérer un espace entre nos cards */
     margin: auto;
     height: 200px;
     width: 200px;
@@ -92,10 +92,11 @@ h3 {
     flex-direction: column;  /* je préfère le mettre pour bien afficher la propriété et sa valeur, même si elle est là par défaut dans notre cas */
     justify-content: center; /* alignement horizontal car flex-direction = row */ /* propriété de flexbox */
     align-items: center;  /* alignement vertical car flex-direction = row */ /* propriété de flexbox */
-    gap : 10px;  /* propriété de flexbox pour insérer un espace entre nos cards */
-    margin: auto;
+    gap : 0px;  /* propriété de flexbox pour insérer un espace entre nos cards */
     height: 60px;
     width: 60px;
+    margin-top: 40px;
+    margin-bottom : 10px;
 }
 
 
@@ -105,6 +106,26 @@ img {
 }
 
 
+.texte {
+    color : white;
+    font-size: 20px;
+    display: none;
+    margin-bottom: 60px;
+}
 
+/*
+#texte1 {
+    display: none;
+}
+
+#texte2 {
+    display: none;
+}
+
+
+#texte3 {
+    display: none;
+}
+*/
 
 
